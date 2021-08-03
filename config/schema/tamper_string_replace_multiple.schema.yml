@@ -1,0 +1,5 @@
+tamper_string_replace_multiple.string_replace_multiple:
+  mapping:
+    text:
+      type: string
+      label: 'String Replace (Multiple)'

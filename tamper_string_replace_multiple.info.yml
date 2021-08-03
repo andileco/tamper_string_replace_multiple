@@ -1,0 +1,4 @@
+name: 'Tamper String Replace Multiple'
+description: 'Generic plugin to modify data.'
+type: module
+core_version_requirement: ^8.8 || ^9
