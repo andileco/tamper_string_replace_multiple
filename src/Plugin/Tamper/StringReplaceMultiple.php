@@ -68,7 +68,7 @@ class StringReplaceMultiple extends TamperBase {
       '#attributes' => [
         'type' => 'number',
       ],
-      '#title' => $this->t('Characters to remove from the right.'),
+      '#title' => $this->t('Characters to remove from the right'),
       '#default_value' => $this->getSetting('trim_right'),
       '#description' => $this->t('You can use this to remove characters from the right side of the source in order for it to match the word or phrase to be replaced. For example, if you had a source like "ReplaceMe 2021" and you wanted to only replace "ReplaceMe", you could trim 5 characters from the end of the string, which would include the space and the year. Please enter POSITIVE integers only.'),
     ];
@@ -78,7 +78,7 @@ class StringReplaceMultiple extends TamperBase {
       '#attributes' => [
         'type' => 'number',
       ],
-      '#title' => $this->t('Characters to remove from the left.'),
+      '#title' => $this->t('Characters to remove from the left'),
       '#default_value' => $this->getSetting('trim_left'),
       '#description' => $this->t('You can use this to remove characters from the left side of the source in order for it to match the word or phrase to be replaced. For example, if you had a source like "2021 ReplaceMe" and you wanted to only replace "ReplaceMe", you could trim 5 characters from the beginning of the string, which would include the space and the year.'),
     ];

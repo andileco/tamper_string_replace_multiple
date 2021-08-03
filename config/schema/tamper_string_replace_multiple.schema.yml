@@ -1,5 +1,11 @@
 tamper_string_replace_multiple.string_replace_multiple:
   mapping:
-    text:
+    allowed_values:
+      type: sequence
+      label: 'Replacement pairs'
+    trim_right:
       type: string
-      label: 'String Replace (Multiple)'
+      label: 'Characters to remove from the right'
+    trim_left:
+      type: string
+      label: 'Characters to remove from the left'
