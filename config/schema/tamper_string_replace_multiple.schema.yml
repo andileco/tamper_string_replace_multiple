@@ -3,6 +3,19 @@ tamper_string_replace_multiple.string_replace_multiple:
     allowed_values:
       type: sequence
       label: 'Replacement pairs'
+      sequence:
+        type: mapping
+        label: 'Source and replacement values'
+        mapping:
+          value:
+            type: integer
+            label: 'Value'
+          label:
+            type: label
+            label: 'Label'
+        allowed_values_function:
+          type: string
+          label: 'Allowed values function'
     trim_right:
       type: string
       label: 'Characters to remove from the right'
