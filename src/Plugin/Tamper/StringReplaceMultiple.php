@@ -24,6 +24,7 @@ class StringReplaceMultiple extends TamperBase {
   public function defaultConfiguration() {
     $config = parent::defaultConfiguration();
     $config['allowed_values'] = [];
+    $config['allowed_values_function'] = '';
     $config['trim_right'] = NULL;
     $config['trim_left'] = NULL;
 
